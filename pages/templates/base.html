@@ -1,4 +1,5 @@
 {% load static %}
+{% load cookielaw_tags %}
 <!doctype html>
 <html lang="en">
 {% include 'header.html'%}
@@ -9,7 +10,7 @@
 
   {% block content %}
   {% endblock %}
-
+  {% cookielaw_banner %}
   {% include 'footer.html' %}
 </body>
 

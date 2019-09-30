@@ -6,7 +6,7 @@
 *.pot
 *.py[co]
 .tox/
-__pycache__/
+__pycache__/*.*
 MANIFEST
 dist/
 docs/_build/
@@ -16,3 +16,8 @@ tests/coverage_html/
 tests/.coverage
 build/
 tests/report/
+greenservice/__pycache__/
+
+pages/__pycache__/__init__.cpython-36.pyc
+
+*.pyc
